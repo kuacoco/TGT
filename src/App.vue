@@ -13,7 +13,12 @@ export default {
 
 <template>
     <el-container>
-        <el-header class="header"></el-header>
+        <el-header class="header">
+            <span class="title">
+                <Sunny style="width: 2rem;height: 2rem;padding: 0.7rem 5px;" />
+                <span style="line-height: 3.5rem">TGT</span>
+            </span>
+        </el-header>
         <el-main class="main">
             <el-card class="card">
                 <el-image fit="contain"
@@ -136,14 +141,55 @@ export default {
                 </div>
             </el-card>
         </el-main>
-        <el-footer class="header">Footer</el-footer>
+        <el-footer class="footer">
+            <span class="link" style="color:#b88230;">
+                <el-icon class="icon">
+                    <HomeFilled />
+                </el-icon>
+                <span>首页</span>
+            </span>
+            <span class="link">
+                <el-icon class="icon">
+                    <UserFilled />
+                </el-icon>
+                <span>我的</span>
+            </span>
+        </el-footer>
     </el-container>
 </template>
   
 <style scoped>
 .header {
-    background-color: pink;
+    background-color: #faecd8;
     height: 3.5rem;
+}
+
+.footer {
+    background-color: #faecd8;
+    height: 3.5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.link {
+    font-size: 0.6rem;
+    text-align: center;
+    display: flex;
+    width: 50vw;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icon {
+    width: 50vw;
+    font-size: 1.8rem;
 }
 
 .main {
@@ -153,6 +199,7 @@ export default {
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 1vh 1vw;
+    background-color: #faecd8;
 }
 
 .card {
