@@ -30,10 +30,18 @@ export default {
         <el-main class="main">
             <el-card class="card" :body-style="badyStyle">
                 <el-image fit="cover"
+                    src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3f98889a99304418934d94a0ef0dc3c5~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.awebp?"
+                    class="image" />
+                <div class="text">
+                    <span>难吃的汉堡包 难吃的汉堡包 难吃的汉堡包 难吃的汉堡包 难吃的汉堡包难吃的汉堡包 难吃的汉堡包 难吃的汉堡包 难吃的汉堡包 难吃的汉堡包</span>
+                </div>
+            </el-card>
+            <el-card class="card" :body-style="badyStyle">
+                <el-image fit="cover"
                     src="https://shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png"
                     class="image" />
                 <div class="text">
-                    <span>美味的汉堡包 美味的汉堡包 美味的汉堡包 美味的汉堡包 美味的汉堡包</span>
+                    <span>美味的汉堡包 美味的汉堡包 美味的汉堡包 美味的汉堡包 美味的汉堡包美味的汉堡包 美味的汉堡包 美味的汉堡包 美味的汉堡包 美味的汉堡包</span>
                 </div>
             </el-card>
             <el-card class="card" :body-style="badyStyle">
@@ -50,6 +58,14 @@ export default {
                     class="image" />
                 <div class="text">
                     <span>美味的汉堡包 美味的汉堡包 美味的汉堡包 美味的汉堡包 美味的汉堡包</span>
+                </div>
+            </el-card>
+            <el-card class="card" :body-style="badyStyle">
+                <el-image fit="cover"
+                    src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3f98889a99304418934d94a0ef0dc3c5~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.awebp?"
+                    class="image" />
+                <div class="text">
+                    <span>难吃的汉堡包 难吃的汉堡包 难吃的汉堡包 难吃的汉堡包 难吃的汉堡包</span>
                 </div>
             </el-card>
             <el-card class="card" :body-style="badyStyle">
@@ -155,8 +171,8 @@ export default {
 }
 
 .card {
-    margin-bottom: 3vh;
-    height: 30vh;
+    margin-bottom: 4vh;
+    height: 15rem;
     width: 80vw;
 }
 
@@ -173,25 +189,19 @@ export default {
 }
 
 .image {
-    height: 20vh;
+    height: 10rem;
     width: 100%;
     display: block;
-}
-
-.text {
-    padding: 0 10px;
-    height: 10vh;
 }
 
 .text span {
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
-    /*! autoprefixer: off */
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+    height: 3rem;
+    line-height: 1.5rem;
+    margin: 1rem;
 }
 </style>
