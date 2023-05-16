@@ -158,6 +158,12 @@ export default {
             </span>
             <span class="navigation">
                 <el-icon class="icon">
+                    <CameraFilled />
+                </el-icon>
+                <span>写攻略</span>
+            </span>
+            <span class="navigation">
+                <el-icon class="icon">
                     <UserFilled />
                 </el-icon>
                 <span>我的</span>
@@ -188,15 +194,13 @@ export default {
 
 .navigation {
     font-size: 0.6rem;
-    text-align: center;
+    align-items: center;
     display: flex;
-    width: 50vw;
     flex-direction: column;
     justify-content: center;
 }
 
 .icon {
-    width: 50vw;
     font-size: 1.8rem;
 }
 
