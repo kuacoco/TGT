@@ -44,8 +44,11 @@ export default {
                     </el-card>
                 </div>
                 <div class="button">
-                    <el-button size="large" type="warning" round style="font-size: 1.1rem;">
-                        <Edit style="width: 1em; height: 1em; margin-right: 8px" />创建新攻略
+                    <el-button size="large" type="warning" round>
+                        <el-icon>
+                            <Edit />
+                        </el-icon>
+                        创建新攻略
                     </el-button>
                 </div>
             </el-drawer>
