@@ -15,8 +15,12 @@ export default {
     },
     methods: {
         goto(name) {
-            if (name === 'CreateStrategy') {
-                this.footer = this.drawer = false
+            if (name === 'Home') {
+                this.homeColor = '#b88230'
+                this.mineColor = '#000'
+            } else if (name === 'Mine') {
+                this.homeColor = '#000'
+                this.mineColor = '#b88230'
             }
             this.$router.push({ name })
         }
@@ -26,7 +30,7 @@ export default {
 
 <template>
     <el-footer class="footer">
-        <span @click="goto('Home')" style="{color: homeColor}">
+        <span @click="goto('Home')" :style="{ color: homeColor }">
             <el-icon>
                 <HomeFilled />
             </el-icon>
@@ -38,7 +42,7 @@ export default {
             </el-icon>
             <span>写攻略</span>
         </span>
-        <span @click="goto('Mine')" style="{color: mineColor}">
+        <span @click="goto('Mine')" :style="{ color: mineColor }">
             <el-icon>
                 <UserFilled />
             </el-icon>
