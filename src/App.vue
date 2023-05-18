@@ -14,7 +14,7 @@ export default {
 <template>
     <el-container>
         <el-header class="header">
-            <Sunny style="width: 2rem;height: 2rem;padding: 0.7rem 5px;" />
+            <Sunny style="width: 2rem;height: 2rem;margin-right: 0.5rem;" />
             <span>TGT</span>
         </el-header>
         <el-main class="main">

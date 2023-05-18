@@ -168,7 +168,6 @@ export default {
 .info {
     height: 3rem;
     line-height: 3rem;
-    overflow: hidden;
 }
 
 .info-l {
