@@ -17,9 +17,7 @@ export default {
             <Sunny style="width: 2rem;height: 2rem;margin-right: 0.5rem;" />
             <span>TGT</span>
         </el-header>
-        <el-main class="main">
-            <router-view></router-view>
-        </el-main>
+        <router-view></router-view>
         <router-view name="footer"></router-view>
     </el-container>
 </template>
@@ -42,11 +40,7 @@ export default {
 .main {
     height: 100vh;
     height: calc(var(--vh, 1vh) * 100);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
     padding: 0;
     background-color: #faecd8;
-    padding: 4rem 0;
 }
 </style>

@@ -12,129 +12,138 @@ export default {
 </script>
 
 <template>
-    <el-card class="card" :body-style="badyStyle">
-        <el-image fit="cover"
-            src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3f98889a99304418934d94a0ef0dc3c5~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.awebp?"
-            class="image" />
-        <div class="text">
-            <span>难吃的汉堡包 难吃的汉堡包 难吃的汉堡包 难吃的汉堡包 难吃的汉堡包难吃的汉堡包 难吃的汉堡包 难吃的汉堡包 难吃的汉堡包 难吃的汉堡包</span>
-        </div>
-        <div class="info">
-            <div class="info-l">
-                <el-avatar src="https://cube.elemecdn.com/0/88/03b0d39583f48206768a7534e55bcpng.png" />
-                <span class="name">用户名</span>
+    <el-main class="main">
+        <el-card class="card" :body-style="badyStyle">
+            <el-image fit="cover"
+                src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3f98889a99304418934d94a0ef0dc3c5~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.awebp?"
+                class="image" />
+            <div class="text">
+                <span>难吃的汉堡包 难吃的汉堡包 难吃的汉堡包 难吃的汉堡包 难吃的汉堡包难吃的汉堡包 难吃的汉堡包 难吃的汉堡包 难吃的汉堡包 难吃的汉堡包</span>
             </div>
-            <span class="info-r">2023-1-1 13:40</span>
-        </div>
-    </el-card>
-    <el-card class="card" :body-style="badyStyle">
-        <el-image fit="cover"
-            src="https://shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png"
-            class="image" />
-        <div class="text">
-            <span>美味的汉堡包 美味的汉堡包 美味的汉堡包 美味的汉堡包 美味的汉堡包美味的汉堡包 美味的汉堡包 美味的汉堡包 美味的汉堡包 美味的汉堡包</span>
-        </div>
-        <div class="info">
-            <div class="info-l">
-                <el-avatar src="https://cube.elemecdn.com/0/88/03b0d39583f48206768a7534e55bcpng.png" />
-                <span class="name">用户名</span>
+            <div class="info">
+                <div class="info-l">
+                    <el-avatar src="https://cube.elemecdn.com/0/88/03b0d39583f48206768a7534e55bcpng.png" />
+                    <span class="name">用户名</span>
+                </div>
+                <span class="info-r">2023-1-1 13:40</span>
             </div>
-            <span class="info-r">2023-1-1 13:40</span>
-        </div>
-    </el-card>
-    <el-card class="card" :body-style="badyStyle">
-        <el-image fit="cover"
-            src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3f98889a99304418934d94a0ef0dc3c5~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.awebp?"
-            class="image" />
-        <div class="text">
-            <span>难吃的汉堡包 难吃的汉堡包 难吃的汉堡包 难吃的汉堡包 难吃的汉堡包难吃的汉堡包 难吃的汉堡包 难吃的汉堡包 难吃的汉堡包 难吃的汉堡包</span>
-        </div>
-        <div class="info">
-            <div class="info-l">
-                <el-avatar src="https://cube.elemecdn.com/0/88/03b0d39583f48206768a7534e55bcpng.png" />
-                <span class="name">用户名</span>
+        </el-card>
+        <el-card class="card" :body-style="badyStyle">
+            <el-image fit="cover"
+                src="https://shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png"
+                class="image" />
+            <div class="text">
+                <span>美味的汉堡包 美味的汉堡包 美味的汉堡包 美味的汉堡包 美味的汉堡包美味的汉堡包 美味的汉堡包 美味的汉堡包 美味的汉堡包 美味的汉堡包</span>
             </div>
-            <span class="info-r">2023-1-1 13:40</span>
-        </div>
-    </el-card>
-    <el-card class="card" :body-style="badyStyle">
-        <el-image fit="cover"
-            src="https://shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png"
-            class="image" />
-        <div class="text">
-            <span>美味的汉堡包 美味的汉堡包 美味的汉堡包 美味的汉堡包 美味的汉堡包美味的汉堡包 美味的汉堡包 美味的汉堡包 美味的汉堡包 美味的汉堡包</span>
-        </div>
-        <div class="info">
-            <div class="info-l">
-                <el-avatar src="https://cube.elemecdn.com/0/88/03b0d39583f48206768a7534e55bcpng.png" />
-                <span class="name">用户名</span>
+            <div class="info">
+                <div class="info-l">
+                    <el-avatar src="https://cube.elemecdn.com/0/88/03b0d39583f48206768a7534e55bcpng.png" />
+                    <span class="name">用户名</span>
+                </div>
+                <span class="info-r">2023-1-1 13:40</span>
             </div>
-            <span class="info-r">2023-1-1 13:40</span>
-        </div>
-    </el-card>
-    <el-card class="card" :body-style="badyStyle">
-        <el-image fit="cover"
-            src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3f98889a99304418934d94a0ef0dc3c5~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.awebp?"
-            class="image" />
-        <div class="text">
-            <span>难吃的汉堡包 难吃的汉堡包 难吃的汉堡包 难吃的汉堡包 难吃的汉堡包难吃的汉堡包 难吃的汉堡包 难吃的汉堡包 难吃的汉堡包 难吃的汉堡包</span>
-        </div>
-        <div class="info">
-            <div class="info-l">
-                <el-avatar src="https://cube.elemecdn.com/0/88/03b0d39583f48206768a7534e55bcpng.png" />
-                <span class="name">用户名</span>
+        </el-card>
+        <el-card class="card" :body-style="badyStyle">
+            <el-image fit="cover"
+                src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3f98889a99304418934d94a0ef0dc3c5~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.awebp?"
+                class="image" />
+            <div class="text">
+                <span>难吃的汉堡包 难吃的汉堡包 难吃的汉堡包 难吃的汉堡包 难吃的汉堡包难吃的汉堡包 难吃的汉堡包 难吃的汉堡包 难吃的汉堡包 难吃的汉堡包</span>
             </div>
-            <span class="info-r">2023-1-1 13:40</span>
-        </div>
-    </el-card>
-    <el-card class="card" :body-style="badyStyle">
-        <el-image fit="cover"
-            src="https://shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png"
-            class="image" />
-        <div class="text">
-            <span>美味的汉堡包 美味的汉堡包 美味的汉堡包 美味的汉堡包 美味的汉堡包美味的汉堡包 美味的汉堡包 美味的汉堡包 美味的汉堡包 美味的汉堡包</span>
-        </div>
-        <div class="info">
-            <div class="info-l">
-                <el-avatar src="https://cube.elemecdn.com/0/88/03b0d39583f48206768a7534e55bcpng.png" />
-                <span class="name">用户名</span>
+            <div class="info">
+                <div class="info-l">
+                    <el-avatar src="https://cube.elemecdn.com/0/88/03b0d39583f48206768a7534e55bcpng.png" />
+                    <span class="name">用户名</span>
+                </div>
+                <span class="info-r">2023-1-1 13:40</span>
             </div>
-            <span class="info-r">2023-1-1 13:40</span>
-        </div>
-    </el-card>
-    <el-card class="card" :body-style="badyStyle">
-        <el-image fit="cover"
-            src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3f98889a99304418934d94a0ef0dc3c5~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.awebp?"
-            class="image" />
-        <div class="text">
-            <span>难吃的汉堡包 难吃的汉堡包 难吃的汉堡包 难吃的汉堡包 难吃的汉堡包难吃的汉堡包 难吃的汉堡包 难吃的汉堡包 难吃的汉堡包 难吃的汉堡包</span>
-        </div>
-        <div class="info">
-            <div class="info-l">
-                <el-avatar src="https://cube.elemecdn.com/0/88/03b0d39583f48206768a7534e55bcpng.png" />
-                <span class="name">用户名</span>
+        </el-card>
+        <el-card class="card" :body-style="badyStyle">
+            <el-image fit="cover"
+                src="https://shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png"
+                class="image" />
+            <div class="text">
+                <span>美味的汉堡包 美味的汉堡包 美味的汉堡包 美味的汉堡包 美味的汉堡包美味的汉堡包 美味的汉堡包 美味的汉堡包 美味的汉堡包 美味的汉堡包</span>
             </div>
-            <span class="info-r">2023-1-1 13:40</span>
-        </div>
-    </el-card>
-    <el-card class="card" :body-style="badyStyle">
-        <el-image fit="cover"
-            src="https://shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png"
-            class="image" />
-        <div class="text">
-            <span>美味的汉堡包 美味的汉堡包 美味的汉堡包 美味的汉堡包 美味的汉堡包美味的汉堡包 美味的汉堡包 美味的汉堡包 美味的汉堡包 美味的汉堡包</span>
-        </div>
-        <div class="info">
-            <div class="info-l">
-                <el-avatar src="https://cube.elemecdn.com/0/88/03b0d39583f48206768a7534e55bcpng.png" />
-                <span class="name">用户名</span>
+            <div class="info">
+                <div class="info-l">
+                    <el-avatar src="https://cube.elemecdn.com/0/88/03b0d39583f48206768a7534e55bcpng.png" />
+                    <span class="name">用户名</span>
+                </div>
+                <span class="info-r">2023-1-1 13:40</span>
             </div>
-            <span class="info-r">2023-1-1 13:40</span>
-        </div>
-    </el-card>
+        </el-card>
+        <el-card class="card" :body-style="badyStyle">
+            <el-image fit="cover"
+                src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3f98889a99304418934d94a0ef0dc3c5~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.awebp?"
+                class="image" />
+            <div class="text">
+                <span>难吃的汉堡包 难吃的汉堡包 难吃的汉堡包 难吃的汉堡包 难吃的汉堡包难吃的汉堡包 难吃的汉堡包 难吃的汉堡包 难吃的汉堡包 难吃的汉堡包</span>
+            </div>
+            <div class="info">
+                <div class="info-l">
+                    <el-avatar src="https://cube.elemecdn.com/0/88/03b0d39583f48206768a7534e55bcpng.png" />
+                    <span class="name">用户名</span>
+                </div>
+                <span class="info-r">2023-1-1 13:40</span>
+            </div>
+        </el-card>
+        <el-card class="card" :body-style="badyStyle">
+            <el-image fit="cover"
+                src="https://shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png"
+                class="image" />
+            <div class="text">
+                <span>美味的汉堡包 美味的汉堡包 美味的汉堡包 美味的汉堡包 美味的汉堡包美味的汉堡包 美味的汉堡包 美味的汉堡包 美味的汉堡包 美味的汉堡包</span>
+            </div>
+            <div class="info">
+                <div class="info-l">
+                    <el-avatar src="https://cube.elemecdn.com/0/88/03b0d39583f48206768a7534e55bcpng.png" />
+                    <span class="name">用户名</span>
+                </div>
+                <span class="info-r">2023-1-1 13:40</span>
+            </div>
+        </el-card>
+        <el-card class="card" :body-style="badyStyle">
+            <el-image fit="cover"
+                src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3f98889a99304418934d94a0ef0dc3c5~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.awebp?"
+                class="image" />
+            <div class="text">
+                <span>难吃的汉堡包 难吃的汉堡包 难吃的汉堡包 难吃的汉堡包 难吃的汉堡包难吃的汉堡包 难吃的汉堡包 难吃的汉堡包 难吃的汉堡包 难吃的汉堡包</span>
+            </div>
+            <div class="info">
+                <div class="info-l">
+                    <el-avatar src="https://cube.elemecdn.com/0/88/03b0d39583f48206768a7534e55bcpng.png" />
+                    <span class="name">用户名</span>
+                </div>
+                <span class="info-r">2023-1-1 13:40</span>
+            </div>
+        </el-card>
+        <el-card class="card" :body-style="badyStyle">
+            <el-image fit="cover"
+                src="https://shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png"
+                class="image" />
+            <div class="text">
+                <span>美味的汉堡包 美味的汉堡包 美味的汉堡包 美味的汉堡包 美味的汉堡包美味的汉堡包 美味的汉堡包 美味的汉堡包 美味的汉堡包 美味的汉堡包</span>
+            </div>
+            <div class="info">
+                <div class="info-l">
+                    <el-avatar src="https://cube.elemecdn.com/0/88/03b0d39583f48206768a7534e55bcpng.png" />
+                    <span class="name">用户名</span>
+                </div>
+                <span class="info-r">2023-1-1 13:40</span>
+            </div>
+        </el-card>
+    </el-main>
 </template>
 
 <style scoped>
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 4rem 0;
+}
+
 .card {
     margin-bottom: 2vh;
     height: 16.5rem;
